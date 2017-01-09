@@ -154,7 +154,7 @@ This template can be deployed as follows:
 
 .. code:: bash
 
-  $ openstack stack create -t ex1.2.yaml --parameter image="RH_7.2_KSOI5-v1.3" ex1.2
+  $ openstack stack create -t ex1.2.yaml --parameter security_group="setup_sg" ex1.2
 
 ex1.3.yaml
 ----------
